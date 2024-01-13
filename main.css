@@ -139,3 +139,83 @@ footer{
     color: #ecf0f1;
     padding: 16px 0;
 }
+
+@media (max-width: 767px) {
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    h1,
+    nav {
+        text-align: center;
+    }
+
+    .loja {
+        padding: 0 10px;
+    }
+
+    header .container,
+    section .container{
+        display: block;
+        align-items: center;
+    }
+
+    .fale {
+        display: inline-block;
+        position: relative;
+    }
+
+    #contact .container{
+        display: block;
+        text-align: center;
+    }
+    
+    .contact-methods{
+        display: block;
+    }
+}
+
+@media (max-width: 1024px) {
+    h1,
+    nav {
+        text-align: center;
+    }
+
+    .loja {
+        padding: 0 10px;
+    }
+
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header .container{
+        padding: 0 10px;
+    }
+
+    section .container{
+        display: block;
+        align-items: center;
+    }
+
+    .store-front{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .contacts{
+        margin: 0 auto;
+    }
+
+    #contact .container{
+        padding: 0 10px;
+        display: block;
+    }
+    
+    .contact-methods{
+        padding: 10px 0;
+        display: block;
+    }
+}
